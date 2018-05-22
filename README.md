@@ -245,8 +245,8 @@ función debe invocar internamente a `computeUsersStats()`, `sortUsers()` y
     + `users`: Arreglo de usuarios miembros del cohort.
     + `progress`: Objeto con data de progreso de cada usuario en el contexto de
       un cohort en particular.
-  - `orderBy`: String con criterio de ordenado (ver `computeUsersStats`).
-  - `orderDirection`: String con dirección de ordenado (ver `computeUsersStats`).
+  - `orderBy`: String con criterio de ordenado (ver `sortUsers`).
+  - `orderDirection`: String con dirección de ordenado (ver `sortUsers`).
   - `search`: String de búsqueda (ver `filterUsers`)
 
 #### Valor de retorno
