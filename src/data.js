@@ -1,15 +1,8 @@
-window.computeUsersStats = (users, progress, courses) => {
+// esta es una función de ejemplo
+// puedes ver como agregamos la función a nuestro objeto global window
 
-}
+const example = () => {
+  return 'example';
+};
 
-window.sortUsers = (users, orderBy, orderDirection) => {
-
-}
-
-window.filterUsers = (users, search) => {
-
-}
-
-window.processCohortData = (options) => {
-
-}
+window.example = example;
