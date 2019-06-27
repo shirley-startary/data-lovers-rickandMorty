@@ -1,0 +1,33 @@
+.card-width {
+	max-width: 18rem;
+	min-width: 18rem;
+}
+
+.margin-auto {
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.center-child {
+	align-items: stretch;
+	/* align-items: center; */
+
+	justify-content: space-around;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

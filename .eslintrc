@@ -1,12 +1,13 @@
 {
   "env": {
-    "browser": true
+		"browser": true,
+		"es6": true
   },
   "parserOptions": {
-    "ecmaVersion": 6
+    "ecmaVersion": 2018
   },
   "extends": "eslint:recommended",
   "globals": {
-    "example": false
+		"dataLover": false
   }
 }
